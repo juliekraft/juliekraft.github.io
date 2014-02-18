@@ -1,0 +1,20 @@
+body {
+  background-color: #EAEBE6;
+  font-family: Georgia;
+}
+
+nav {
+  /*background-color: lightpink;*/
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #404040;
+}
+
+a {
+  padding: 10px;
+  color: #404040;
+}
