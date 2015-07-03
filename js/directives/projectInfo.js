@@ -1,9 +1,9 @@
-app.directive('projectInfo', function() {
-  return {
-    restrict: 'E',
-    scope: {
-      info: '='
-    },
-    templateUrl: 'js/directives/projectInfo.html'
-  };
-});
+// app.directive('projectInfo', function() {
+//   return {
+//     restrict: 'E',
+//     scope: {
+//       info: '='
+//     },
+//     templateUrl: 'js/views/projectInfo.html'
+//   };
+// });

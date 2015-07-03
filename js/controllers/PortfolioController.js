@@ -1,16 +1,5 @@
-app.controller('PortfolioController', ['$scope', function($scope) {
-      $scope.projects = [
-                          {
-                            "name": "Timely",
-                            "url": "",
-                            "github": "",
-                            "description": ""
-                          },
-                          {
-                            "name": "Book Club",
-                            "url": "",
-                            "github": "",
-                            "description": ""
-                          }
-                        ];
+app.controller('PortfolioController', ['$scope', 'projects', function($scope, projects) {
+  projects.success(function(data) {
+    $scope.myProjects = data;
+  });
 }]);

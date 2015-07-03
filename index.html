@@ -17,10 +17,11 @@
 <body ng-app="portfolio">
 
   <div ng-controller="PortfolioController">
-    <p>Hello</p>
+    <div ng-view></div>
+<!--     <p>Hello</p>
     <div class="container" ng-repeat="project in projects">
       <project-info info="project"></project-info>
-    </div>
+    </div> -->
   </div>
 
 
@@ -31,7 +32,10 @@
     <script src="js/controllers/PortfolioController.js"></script>
 
     <!-- Directives-->
-    <script src="js/directives/projectInfo.js"></script>
+    <!-- <script src="js/directives/projectInfo.js"></script> -->
+
+    <!-- Services -->
+    <script src="js/services/portfolio.js"></script>
 
 </body>
 
