@@ -1,5 +1,5 @@
 app.controller('PortfolioController', ['$scope', 'portfolio', function($scope, portfolio) {
   portfolio.success(function(data) {
-    $scope.myProjects = data;
+    $scope.portfolio = data;
   });
 }]);
