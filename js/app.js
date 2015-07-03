@@ -1,12 +1,20 @@
-var app = angular.module('portfolio', ['ngRoute']);
+var app = angular.module('portfolio', []);
 
-app.config(function($routeProvider) {
-  $routeProvider
-    .when('/', {
-      controller: 'PortfolioController',
-      templateUrl: 'views/portfolio.html'
-    })
-    .otherwise({
-      redirectTo: '/'
-    });
-});
+
+
+
+
+
+
+// var app = angular.module('portfolio', ['ngRoute']);
+
+// app.config(function($routeProvider) {
+//   $routeProvider
+//     .when('/', {
+//       controller: 'PortfolioController',
+//       templateUrl: 'js/directives/projectInfo.html'
+//     })
+//     .otherwise({
+//       redirectTo: '/'
+//     });
+// });

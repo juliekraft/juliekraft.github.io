@@ -16,12 +16,11 @@
 
 <body ng-app="portfolio">
 
-  <div class="main" ng-repeat="project in projects">
-    <project-info info="project"></project-info>
+  <div ng-controller="PortfolioController">
+    <div class="container" ng-repeat="project in projects">
+      <project-info info="project"></project-info>
+    </div>
   </div>
-
-
-
 
 
     <!-- Modules -->
