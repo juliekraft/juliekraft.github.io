@@ -1,30 +1,44 @@
-<html>
+<!DOCTYPE html>
+
 <head>
   <title>Julie Kraft</title>
-
-  <link rel="stylesheet" type="text/css" href="stylesheets/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-
-  <script type="text/javascript" src="javascripts/jquery.js"></script>
-  <script type="text/javascript" src="javascripts/underscore.js"></script>
-  <script type="text/javascript" src="javascripts/backbone.js"></script>
-
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+  <script src='db/data.json'></script>
 </head>
-<body>
-  <!-- main_container div around evvverything -->
-  <div class="container">
 
-    <nav class="six columns offset-by-five">
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-      <!-- // <script type="text/javascript" src="javascripts/nav.js"></script> -->
-    </nav>
+<body ng-app="portfolio">
 
-    <h1 class="sixteen columns">Julie Kraft</h1>
+  <div class="main">
 
-    <script type="text/javascript" src="javascripts/scripts.js"></script>
+    <h1>Main div</h1>
 
+    <div class="container">
+
+      <h2>Container div</h2>
+
+      <div ng-view></div>
+
+    </div>
   </div>
+
+
+
+
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/PortfolioController.js"></script>
+
+    <!-- Directives-->
+
+    <!-- Services -->
+    <script src="js/services/portfolio.js"></script>
+
 </body>
+
 </html>
