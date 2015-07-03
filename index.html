@@ -5,30 +5,19 @@
 
   <!-- css -->
   <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
   <!-- vendor -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
 
-  <!-- json project data -->
-  <script src='db/data.json'></script>
 </head>
 
 <body ng-app="portfolio">
 
-  <div class="main">
-
-    <h1>Main div</h1>
-
-    <div class="container">
-
-      <h2>Container div</h2>
-
-      <div ng-view></div>
-
-    </div>
+  <div class="main" ng-repeat="project in projects">
+    <project-info info="project"></project-info>
   </div>
 
 
@@ -42,9 +31,7 @@
     <script src="js/controllers/PortfolioController.js"></script>
 
     <!-- Directives-->
-
-    <!-- Services -->
-    <script src="js/services/portfolio.js"></script>
+    <script src="js/directives/projectInfo.js"></script>
 
 </body>
 
