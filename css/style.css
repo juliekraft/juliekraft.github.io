@@ -3,9 +3,10 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* custom css*/
 body, html {
-    background: #ff3b4e;
+    background: #262626;
     margin: 0;
     padding: 0;
+    color: #768B8C;
 }
 
 .header {

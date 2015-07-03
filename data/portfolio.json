@@ -1,12 +1,12 @@
 [{
     "name": "Timely",
-    "description": "",
-    "url": "",
-    "github": ""
+    "description": "timely description",
+    "url": "timely url",
+    "github": "timely github"
 },
 {
     "name": "Book Club",
-    "description": "",
-    "url": "",
-    "github": ""
+    "description": "Share booklists with friends",
+    "url": "book club url",
+    "github": "book club github"
 }]
