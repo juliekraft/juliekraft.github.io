@@ -1,5 +1,5 @@
 app.factory('portfolio', ['$http', function($http) {
-  return $http.get('http://juliekraft.github.io/views/portfolio.html')
+  return $http.get('http://juliekraft.github.io/db/data.json')
          .success(function(data) {
            return data;
            console.log('success');
