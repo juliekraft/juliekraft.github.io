@@ -1,10 +1,15 @@
 var app = angular.module('Portfolio', ['ngRoute']);
 
 app.config(function($routeProvider) {
+  console.log('routes');
   $routeProvider
     .when('/', {
-      controller: 'PortfolioController',
-      templateUrl: 'js/views/projectInfo.html'
+      controller: 'ProjectsController',
+      templateUrl: 'js/views/projectList.html'
+    })
+    .when('/:id', {
+      controller: 'ProjectController',
+      templateUrl: 'js/views/projectDetail.html'
     })
     .otherwise({
       redirectTo: '/'

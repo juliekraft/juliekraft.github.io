@@ -1,4 +1,4 @@
-app.factory('portfolio', ['$http', function($http) {
+app.factory('projects', ['$http', function($http) {
   return $http.get('https://juliekraft.github.io/data/portfolio.json')
     .success(function(data){
       return data;
