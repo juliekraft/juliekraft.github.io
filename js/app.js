@@ -1,7 +1,6 @@
 var app = angular.module('Portfolio', ['ngRoute']);
 
 app.config(function($routeProvider) {
-  console.log('routes');
   $routeProvider
     .when('/', {
       controller: 'ProjectsController',
