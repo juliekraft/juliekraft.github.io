@@ -1,11 +1,13 @@
 [{
     "name": "Timely",
-    "description": "timely description",
-    "url": "timely url",
-    "github": "timely github"
+    "pic": "/img/timely.png",
+    "description": "Mobile discovery tool that uses Yelp's API to give users time- and geolocation-based recommendations for food, drinks, events, and services.",
+    "url": "http://cherry-timely.herokuapp.com",
+    "github": "https://github.com/jaradus/timely"
 },
 {
     "name": "Book Club",
+    "pic": "",
     "description": "Share booklists with friends",
     "url": "book club url",
     "github": "book club github"

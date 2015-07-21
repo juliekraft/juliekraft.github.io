@@ -1,7 +1,8 @@
-<h3>List of Projects</h3>
+<h1>Portfolio</h1><br>
 <div class="project" ng-repeat="project in projects">
   <a href="#/{{$index}}">
-    <p class="name">{{project.name}}</p>
+    <p class="name">{{ project.name }}</p>
+    <img ng-src="{{ project.pic }}" />
   </a>
   <br>
 </div>
